@@ -1,0 +1,18 @@
+{
+  "name": "php-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reload": "reload -b -d ./htdocs",
+    "stylus": "stylus -w stylus/style.styl -o www/css"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "reload": "^3.0.5",
+    "stylus": "^0.54.7"
+  },
+  "author": "",
+  "license": "ISC"
+}

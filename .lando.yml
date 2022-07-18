@@ -1,0 +1,12 @@
+name: php-app
+services:
+  myservice:
+    type: php:8.0
+    via: nginx
+    webroot: www
+  my_sql_service:
+    type: mysql
+  phpmyadmin:
+    type: phpmyadmin
+    host:
+      - my_sql_service
